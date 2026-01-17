@@ -28,18 +28,6 @@ By the end of this project, you should be able to confidently answer questions l
 
 ---
 
-## 📂 Repository Structure
-notes-js-web-internals/
-├── async-utilities/ # Custom async helpers (Promises, retries, timeouts)
-├── raw-http-server/ # Node.js HTTP server (no Express)
-├── notes/ # Deep-dive markdown notes
-├── diagrams/ # Architecture & execution flow diagrams
-├── experiments/ # Small experiments to test runtime behavior
-└── references/ # Curated learning resources
-
----
-
-
 ## 🧵 Async Utilities
 
 **Location:** `async-utilities/`
