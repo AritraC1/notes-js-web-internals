@@ -8,7 +8,7 @@ dotenv.config();
 const PORT_NUMBER = process.env.PORT;
 
 // req, res part - callback is a handler (request handler)
-const myServer = http.createServer((req, res) => {
+function handler(req, res) {
   // console.log(req); // req is an object
   const log = `${Date.now()}: ${req.method} ${req.url} New request received\n`;
   const myUrl = url.parse(req.url);
@@ -27,7 +27,9 @@ const myServer = http.createServer((req, res) => {
         res.end("404 Not found");
     }
   });
-});
+}
+
+const myServer = http.createServer(handler);
 
 myServer.listen(PORT_NUMBER, () => {
   console.log(`Server is running on port number: ${PORT_NUMBER}`);
