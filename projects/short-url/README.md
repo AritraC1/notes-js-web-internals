@@ -64,9 +64,9 @@ These routes are defined in `routes/url.js` and implemented in `controllers/url.
 - Visit history entries are simple objects with a `timestamp` (number). The analytics view sorts and displays these timestamps.
 
 ## Demo
-![Home Page](../../assets/homepage.png)
-![Shortend URL](../../assets/shortend.png)
-![Analytics per shortend url](../../assets/analytics.png)
+![Home Page](./public/assets//homepage.png)
+![Shortend URL](./public/assets/shortend.png)
+![Analytics per shortend url](./public/assets/analytics.png)
 
 ---
 
